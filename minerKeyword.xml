@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MinerKeywords>
+	<MinerWord>
+		<Word>xmrig</Word>
+		<Word>minerd</Word>
+		<Word>cpuminer</Word>
+		<Word>ethminer</Word>
+		<Word>claymore</Word>
+		<Word>phoenixminer</Word>
+		<Word>t-rex</Word>
+		<Word>kawpowminer</Word>
+		<Word>z-enemy</Word>
+		<Word>nanominer</Word>
+		<Word>lolminer</Word>
+		<Word>teamredminer</Word>
+		<Word>wildrig</Word>
+		<Word>srbmminer</Word>
+		<Word>hashfish</Word>
+		<Word>nbminer</Word>
+		<Word>cryptonight</Word>
+		<Word>srvany.exe</Word>
+		<Word>svchosts.exe</Word>
+		<Word>services.exe</Word>
+	</MinerWord>
+
+	<MinerProcessesesExe>
+		<Exe>xmrig.exe</Exe>
+		<Exe>xmr1g.exe</Exe> <!-- частая обфускация -->
+		<Exe>minerd.exe</Exe>
+		<Exe>cpuminer.exe</Exe>
+		<Exe>ethminer.exe</Exe>
+		<Exe>claymore.exe</Exe>
+		<Exe>phoenixminer.exe</Exe>
+		<Exe>t-rex.exe</Exe>
+		<Exe>t_rex.exe</Exe> <!-- альтернатива -->
+		<Exe>kawpowminer.exe</Exe>
+		<Exe>z-enemy.exe</Exe>
+		<Exe>nanominer.exe</Exe>
+		<Exe>lolminer.exe</Exe>
+		<Exe>teamredminer.exe</Exe>
+		<Exe>wildrig.exe</Exe>
+		<Exe>srbmminer.exe</Exe>
+		<Exe>hashfish.exe</Exe>
+		<Exe>nbminer.exe</Exe>
+		<Exe>srvany.exe</Exe> <!-- часто используется майнерами -->
+		<Exe>svchosts.exe</Exe> <!-- маскировка под системный процесс -->
+		<Exe>services.exe</Exe>
+		<Exe>taskhost.exe</Exe>
+		<Exe>conhost.exe</Exe>
+		<Exe>explorer.exe</Exe>
+		<Exe>ctfmon.exe</Exe>
+		<Exe>lsass.exe</Exe>
+		<Exe>csrss.exe</Exe>
+	</MinerProcessesesExe>
+
+	<MinerCMDWord>
+		<CMD>--donate-level</CMD>
+		<CMD>--coin</CMD>
+		<CMD>--tls</CMD>
+		<CMD>--cpu-priority</CMD>
+		<CMD>--background</CMD>
+		<CMD>--max-cpu-usage</CMD>
+		<CMD>--algorithm</CMD>
+		<CMD>--url</CMD>
+		<CMD>-o</CMD> <!-- адрес пула -->
+		<CMD>-u</CMD> <!-- пользователь/кошелек -->
+		<CMD>-p</CMD> <!-- пароль или настройка пула -->
+		<CMD>stratum+tcp://</CMD> <!-- адреса пулов майнинга -->
+		<CMD>stratum+ssl://</CMD>
+		<CMD>stratum+http://</CMD>
+		<CMD>cryptonight</CMD> <!-- алгоритм Cryptonight -->
+		<CMD>ethash</CMD> <!-- алгоритм Ethash -->
+		<CMD>randomx</CMD> <!-- алгоритм RandomX -->
+		<CMD>worker</CMD> <!-- имя майнера -->
+		<CMD>--userpass</CMD>
+		<CMD>--pass</CMD>
+		<CMD>--rig-id</CMD>
+		<CMD>--proxy</CMD>
+		<CMD>--cpu-affinity</CMD>
+		<CMD>--no-color</CMD>
+	</MinerCMDWord>
+
+	<MinerIPService>
+		<IP>supportxmr.com</IP>
+		<IP>minexmr.com</IP>
+		<IP>nanopool.org</IP>
+		<IP>ethermine.org</IP>
+	</MinerIPService>
+
+	<MinerPaths>
+		<Path>%APPDATA%</Path>
+		<Path>%TEMP%</Path>
+		<Path>%SYSTEM32%</Path>
+	</MinerPaths>
+
+	<BadParents>
+		<Parent>explorer.exe</Parent>
+		<Parent>cmd.exe</Parent>
+		<Parent>powershell.exe</Parent>
+		<Parent>wscript.exe</Parent>
+		<Parent>rundll32.exe</Parent>
+		<Parent>conhost.exe</Parent>
+		<Parent>services.exe</Parent>
+	</BadParents>
+</MinerKeywords>

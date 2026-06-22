@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Processes\**" />
+    <EmbeddedResource Remove="Processes\**" />
+    <None Remove="Processes\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Iced" Version="1.21.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Processes\Diagnostics\Diagnostics.csproj" />
+  </ItemGroup>
+
+</Project>

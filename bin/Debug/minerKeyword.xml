@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MinerKeywords>
+	<MinerWord>
+		<Word>xmrig</Word>
+		<Word>minerd</Word>
+		<Word>cpuminer</Word>
+		<Word>ethminer</Word>
+		<Word>claymore</Word>
+		<Word>phoenixminer</Word>
+		<Word>t-rex</Word>
+		<Word>kawpowminer</Word>
+		<Word>z-enemy</Word>
+		<Word>nanominer</Word>
+		<Word>lolminer</Word>
+		<Word>teamredminer</Word>
+		<Word>wildrig</Word>
+		<Word>srbmminer</Word>
+		<Word>hashfish</Word>
+		<Word>nbminer</Word>
+		<Word>cryptonight</Word>
+		<Word>srvany.exe</Word>
+		<Word>svchosts.exe</Word>
+		<Word>services.exe</Word>
+	</MinerWord>
+
+	<MinerProcessesExe>
+		<Exe>xmrig.exe</Exe>
+		<Exe>minerd.exe</Exe>
+		<Exe>cpuminer.exe</Exe>
+		<Exe>ethminer.exe</Exe>
+		<Exe>claymore.exe</Exe>
+		<Exe>phoenixminer.exe</Exe>
+		<Exe>t-rex.exe</Exe>
+		<Exe>kawpowminer.exe</Exe>
+		<Exe>z-enemy.exe</Exe>
+		<Exe>nanominer.exe</Exe>
+		<Exe>lolminer.exe</Exe>
+		<Exe>teamredminer.exe</Exe>
+		<Exe>wildrig.exe</Exe>
+		<Exe>srbmminer.exe</Exe>
+		<Exe>hashfish.exe</Exe>
+		<Exe>nbminer.exe</Exe>
+		<Exe>srvany.exe</Exe>
+		<Exe>svchosts.exe</Exe>
+		<Exe>services.exe</Exe>
+	</MinerProcessesExe>
+
+	<MinerCMDWord>
+		<CMD>--donate-level</CMD>
+		<CMD>--coin</CMD>
+		<CMD>--tls</CMD>
+		<CMD>--cpu-priority</CMD>
+		<CMD>--background</CMD>
+		<CMD>--max-cpu-usage</CMD>
+		<CMD>--algorithm</CMD>
+	</MinerCMDWord>
+
+	<MinerIPService>
+		<IP>supportxmr.com</IP>
+		<IP>minexmr.com</IP>
+		<IP>nanopool.org</IP>
+		<IP>ethermine.org</IP>
+	</MinerIPService>
+
+	<MinerPaths>
+		<Path>%APPDATA%</Path>
+		<Path>%TEMP%</Path>
+		<Path>%SYSTEM32%</Path>
+	</MinerPaths>
+</MinerKeywords>
